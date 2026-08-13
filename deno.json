@@ -3,7 +3,7 @@
   "imports": {
     "hono": "jsr:@hono/hono",
     "hono/cors": "jsr:@hono/hono/cors",
-    "postgres": "https://deno.land/x/postgresjs@v3.4.8/mod.js"
+    "postgres": "npm:postgres@3.4.8"
   },
   "tasks": {
     "dev": "deno run --allow-net --allow-env --allow-read entry/deno.ts",
